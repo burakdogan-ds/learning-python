@@ -4,3 +4,9 @@
 * **Learned:** (Bugün ne öğrendim? Kısaca yaz.)
 * **Stuck & Solved:** (Nerede takıldım, nasıl çözdüm?)
 * **Tomorrow:** (Yarınki hedefim ne?)
+
+
+## Day 2 - 31.03.2026
+* **Learned:** (Bugün ne öğrendim? Kısaca yaz.)
+* **Stuck & Solved:** (Nerede takıldım, nasıl çözdüm?)
+* **Tomorrow:** (Yarınki hedefim ne?)
