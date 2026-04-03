@@ -4,10 +4,33 @@
 ## Day 2- 03.04.2026
 
 #counting in a loop
-
 i = 0
 print("before",i)
 for term in [11,21,31,41,51,61,71,81,91]:
     i = i+1
     print(term,i)
 print("after",i)
+
+
+#summing in a Loop
+total = 0
+print("before",total)
+for item in [12,21,31,41,32,23,45]:
+    total = total + item
+    print(item,total)
+print("after",total)
+
+#taking the average in a Loop
+sum = 0
+counter = 0
+for x in [5,15,22,32,13,73]:
+    sum = sum + x
+    counter = counter + 1
+    print(x,counter,sum,sum/counter)
+
+#filtering in a Loop
+i = -1
+for new in [5,3,65,23,42,30]:
+    if new > i:
+        i = new
+        print(i)
