@@ -34,3 +34,12 @@ for new in [5,3,65,23,42,30]:
     if new > i:
         i = new
         print(i)
+
+#search using a Loop
+found = False
+#looking for 23
+for item in [42,89,23,98,14,24,45]:
+    if item == 23:
+        print(item,True)
+    else:
+        print(item,found)  
