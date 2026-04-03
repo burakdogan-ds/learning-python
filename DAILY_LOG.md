@@ -55,3 +55,12 @@ for new in [4,23,45,12,76,88,-4]:
     else:
         print(new,False)
 
+#finding the smallest value in a Loop using None
+smallest = None
+for i in [12,21,43,-5,23,-54,0]:
+    if smallest == None:
+        print(smallest)
+        smallest = i
+    elif i<smallest:
+        smallest = i
+        print(i)
