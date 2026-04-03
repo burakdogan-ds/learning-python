@@ -43,3 +43,15 @@ for item in [42,89,23,98,14,24,45]:
         print(item,True)
     else:
         print(item,found)  
+
+#finding the smallest value in a Loop
+bool=False
+i = 45
+print("here comes the value to compare",i)
+for new in [4,23,45,12,76,88,-4]:
+    if new < i:
+        bool=True
+        print(new,True)
+    else:
+        print(new,False)
+
