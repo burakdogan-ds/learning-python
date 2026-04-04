@@ -1,4 +1,12 @@
 ## Day 4- 04.04.2026
+
+#Line count in a file
+fhand = open("C:\\Users\\avdrb\\Desktop\\metin.txt")
+count = 0
+for line in fhand:
+    count = count + 1
+print("Line count is",count)
+
 #Reading a File
 fhand = open("C:\\Users\\avdrb\\Desktop\\metin.txt")
 fhand
