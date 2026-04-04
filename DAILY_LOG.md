@@ -1,4 +1,34 @@
 ## Day 4- 04.04.2026
+#Counting letters in a string
+
+vava = input("Write down a word contains a")
+
+
+count = 0
+for i in vava:
+    if i=="a":
+        count = count + 1 
+print(count)
+
+#finding largest in a loop
+largest = None
+smallest = None
+while True:
+    # 1. Get the input as text
+    num_input = input("Enter a number: ")
+    # 2. Check if they want to quit FIRST
+    if num_input == "done":
+        break      
+    # 3. Try to convert to an integer inside the loop
+    try:
+        num = int(num_input)
+    except:
+        print("Invalid input")
+        continue  # 'continue' skips the rest of the loop and asks for input again
+    # 4. Safe comparison (None check is on the left!)
+    if largest is None or num > largest:
+        largest = num
+print(largest)
 
 ## Day 3- 03.04.2026
 #counting in a loop
