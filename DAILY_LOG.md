@@ -1,9 +1,6 @@
 ## Day 4- 04.04.2026
 #Counting letters in a string
-
 vava = input("Write down a word contains a")
-
-
 count = 0
 for i in vava:
     if i=="a":
