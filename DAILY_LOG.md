@@ -1,5 +1,11 @@
 ## Day 4- 04.04.2026
 
+#Searching Through a File
+fhand = open("C:\\Users\\avdrb\\Desktop\\metin.txt")
+for line in fhand:
+    if line.startswith("From"):
+        print(line)
+
 #Reading a file
 fhand = open("C:\\Users\\avdrb\\Desktop\\metin.txt")
 okuyucu = fhand.read()
