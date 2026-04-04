@@ -1,4 +1,10 @@
 ## Day 4- 04.04.2026
+#Reading a File
+fhand = open("C:\\Users\\avdrb\\Desktop\\metin.txt")
+fhand
+for okuyucu in fhand:
+    print(okuyucu)
+
 #Counting letters in a string
 vava = input("Write down a word contains a")
 count = 0
