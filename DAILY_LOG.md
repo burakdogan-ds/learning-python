@@ -1,8 +1,6 @@
-# Daily Learning Log
+## Day 4- 04.04.2026
 
-## Day 1 - 02.04.2026
-## Day 2- 03.04.2026
-
+## Day 3- 03.04.2026
 #counting in a loop
 i = 0
 print("before",i)
@@ -64,3 +62,9 @@ for i in [12,21,43,-5,23,-54,0]:
     elif i<smallest:
         smallest = i
         print(i)
+## Day 2 - 02.04.2026
+## Day 1 - 01.04.2026
+
+
+
+        
