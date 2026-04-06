@@ -1,5 +1,8 @@
-## Day 4- 04.04.2026
+## Day 6- 06.04.2026
 
+## Day 5- 05.04.2026
+
+## Day 4- 04.04.2026
 #Searching Through a File
 fhand = open("C:\\Users\\avdrb\\Desktop\\metin.txt")
 for line in fhand:
