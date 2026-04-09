@@ -1,5 +1,25 @@
-## Day 6- 06.04.2026
+## Day 9- 09.04.2026
+#Manipulating a File
+try:
+    asker = input("Write down the filename")
+    myfile = open(asker)
+    count=0
+    mus=0
+    for linereader in myfile:
+        if linereader.startswith("X-DSPAM-Confidence:"):
+            zorzer = linereader[-8:].rstrip()
+            zorzer = float(zorzer)
+            count=count+1
+            mus=mus+zorzer            
+        else:
+            continue
+    print("Average spam confidence:", mus/count)
+except: 
+    print("Wrong filename")
 
+## Day 8- 08.04.2026
+## Day 7- 07.04.2026
+## Day 6- 06.04.2026
 ## Day 5- 05.04.2026
 
 ## Day 4- 04.04.2026
