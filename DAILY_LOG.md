@@ -16,6 +16,48 @@ try:
     print("Average spam confidence:", mus/count)
 except: 
     print("Wrong filename")
+    # Collections
+new_list = list()
+new_list.append("sth")
+print(new_list)
+new_list.append("another thing")
+print(new_list)
+"sth" in new_list
+"another thing" not in new_list
+new_list.sort()
+print(new_list)
+nums = [3,2,54,65,76,87,98]
+print(len(nums))
+print(max(nums))
+print(sum(nums))
+numlist = list()
+while True :
+    inp = input("Write down a number")
+    if inp == "done": break
+    value = float(inp)
+    numlist.append(value)
+avg = sum(numlist) / len(numlist)
+print(avg)
+summ = 0
+count = 0
+while True:
+    girdi = input("write down a number")
+    if girdi == "done": break
+    count = count + 1
+    value = float(girdi)
+    summ = summ + value
+print("average is: ", summ/count)
+abc = "with three words"
+splitted = abc.split()
+print(splitted)
+for vav in splitted:
+    print(vav)
+reader = open("C:\\Users\\avdrb\\Desktop\\mbox-short.txt")
+for i in reader:
+    i = i.rstrip()
+    if not i.startswith("From "): continue
+    words = i.split()
+    print(words[0:2])
 
 ## Day 8- 08.04.2026
 ## Day 7- 07.04.2026
