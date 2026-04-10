@@ -1,3 +1,32 @@
+## Day 10- 10.04.2026
+ #Word controller
+ reeder = open("C:\\Users\\avdrb\\Desktop\\romeo.txt")
+ mylist = list()
+ for i in reeder:
+     kelimeler = i.split()
+     for kelime in kelimeler:
+         if kelime not in mylist:
+             mylist.append(kelime)
+ print(mylist)
+ #Text Organizer
+reeder = open("C:\\Users\\avdrb\\Desktop\\mbox-short.txt")
+count = 0
+# 'line' is a much clearer variable name here
+for line in reeder:
+        # Look for 'From ' with a space to avoid 'From:' lines
+    if line.startswith("From "):  
+        # Split the line into a list of words
+        words = line.split()    
+        # The email address is always the second word (index 1)
+        email = words[1]      
+        # Print the email address (as usually requested by this assignment)
+        print(email)       
+        # Increment the counter
+        count = count + 1
+# Close the file when you are done
+reeder.close()
+print("There were", count, "lines in the file with From as the first word")
+
 ## Day 9- 09.04.2026
 #Manipulating a File
 try:
