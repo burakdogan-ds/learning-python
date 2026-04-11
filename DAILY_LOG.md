@@ -6,6 +6,10 @@ words = line.split()
 for word in words:
     counts[word] = counts.get(word,0)+1
 print("Counts",counts)
+#Alternative Histogram
+histo = {"husband":3, "ex_husband":4, "boyfriend":4, "ex_boyfriend":5}
+for category in histo:
+    print(category,histo[category])
 
 ## Day 10- 10.04.2026
  #Word controller
