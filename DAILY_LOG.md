@@ -1,3 +1,12 @@
+## Day 11- 11.04.2026
+#Histogram - Taking in a Numerical and Algorithmic Way
+counts = dict()
+line = input("Enter a line of text")
+words = line.split()
+for word in words:
+    counts[word] = counts.get(word,0)+1
+print("Counts",counts)
+
 ## Day 10- 10.04.2026
  #Word controller
  reeder = open("C:\\Users\\avdrb\\Desktop\\romeo.txt")
